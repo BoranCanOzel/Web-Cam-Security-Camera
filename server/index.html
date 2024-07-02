@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Camera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Security Camera</h1>
+</div>
+
+<div class="tab-container">
+    <button class="tab active" onclick="showTab('recordings')">Recordings</button>
+</div>
+
+<div id="recordings" class="content active">
+    <h2>Recordings</h2>
+    <div id="recordings-container" class="video-container">
+        <!-- Recorded videos will be listed here -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
